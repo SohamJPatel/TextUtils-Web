@@ -9,7 +9,7 @@ def index(request):
 
 
 def home(request):
-    return render(request, 'home2.html')
+    return render(request, 'home.html')
 
 
 def process_text(request):
