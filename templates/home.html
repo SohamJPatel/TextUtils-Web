@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+<body>
+    <h1>Welcome To Soham's Text Analyzer. Enter Your Text Below To Analyze It</h1>
+    <form action='/textprocessor' method='GET'>
+       <textarea name = 'text' style="margin: 0px; width: 967px; height: 162px;"></textarea>
+        <br>
+        <input type="checkbox" name="removespace">Remove Spaces
+        <br>
+        <input type="checkbox" name="capitialize">Capitialize Text
+        <br>
+        <input type="checkbox" name="charcount">Count Number Of Characters
+        <br>
+
+        <button type = 'submit'>Process</button>
+    </form>
+    <br>
+</body>
+</html>
